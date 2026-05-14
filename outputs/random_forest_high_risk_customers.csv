@@ -1,0 +1,305 @@
+customerID,actual_churn,predicted_churn,churn_probability,tenure,MonthlyCharges,Contract,InternetService,PaymentMethod,risk_level,suggested_action
+0295-PPHDO,1,1,0.9335402627220446,1,95.45,Month-to-month,Fiber optic,Electronic check,High,Offer onboarding support or new-customer retention campaign
+5178-LMXOP,1,1,0.932757771253956,1,95.1,Month-to-month,Fiber optic,Electronic check,High,Offer onboarding support or new-customer retention campaign
+1069-XAIEM,1,1,0.9293862052372979,1,85.05,Month-to-month,Fiber optic,Electronic check,High,Offer onboarding support or new-customer retention campaign
+6861-XWTWQ,1,1,0.9233429885140367,7,99.25,Month-to-month,Fiber optic,Electronic check,High,Offer onboarding support or new-customer retention campaign
+9057-SIHCH,1,1,0.9197685034901131,3,96.6,Month-to-month,Fiber optic,Electronic check,High,Offer onboarding support or new-customer retention campaign
+3006-XIMLN,1,1,0.9197351769420218,2,94.2,Month-to-month,Fiber optic,Bank transfer (automatic),High,Offer onboarding support or new-customer retention campaign
+8884-ADFVN,1,1,0.918805370451302,7,101.95,Month-to-month,Fiber optic,Electronic check,High,Offer onboarding support or new-customer retention campaign
+2545-EBUPK,0,1,0.9158030921984863,2,84.05,Month-to-month,Fiber optic,Electronic check,High,Offer onboarding support or new-customer retention campaign
+8161-QYMTT,0,1,0.9155980899745673,7,94.1,Month-to-month,Fiber optic,Electronic check,High,Offer onboarding support or new-customer retention campaign
+9248-OJYKK,1,1,0.9142108379921926,1,76.45,Month-to-month,Fiber optic,Electronic check,High,Offer onboarding support or new-customer retention campaign
+8375-DKEBR,1,1,0.912942200487307,1,69.6,Month-to-month,Fiber optic,Electronic check,High,Offer onboarding support or new-customer retention campaign
+9804-ICWBG,1,1,0.9117790659236495,1,69.9,Month-to-month,Fiber optic,Electronic check,High,Offer onboarding support or new-customer retention campaign
+5542-TBBWB,0,1,0.9117790659236495,1,69.9,Month-to-month,Fiber optic,Electronic check,High,Offer onboarding support or new-customer retention campaign
+2609-IAICY,1,1,0.9114894281492755,1,77.15,Month-to-month,Fiber optic,Electronic check,High,Offer onboarding support or new-customer retention campaign
+0655-RBDUG,1,1,0.9110830844825922,7,98.05,Month-to-month,Fiber optic,Bank transfer (automatic),High,Offer onboarding support or new-customer retention campaign
+1820-TQVEV,1,1,0.9110238309117081,1,69.55,Month-to-month,Fiber optic,Electronic check,High,Offer onboarding support or new-customer retention campaign
+1143-NMNQJ,1,1,0.9109335855692497,2,85.7,Month-to-month,Fiber optic,Electronic check,High,Offer onboarding support or new-customer retention campaign
+2514-GINMM,1,1,0.910556132550902,1,79.5,Month-to-month,Fiber optic,Electronic check,High,Offer onboarding support or new-customer retention campaign
+4750-ZRXIU,1,1,0.9086419096409583,4,84.6,Month-to-month,Fiber optic,Electronic check,High,Offer onboarding support or new-customer retention campaign
+4415-IJZTP,1,1,0.9076244663654073,1,74.5,Month-to-month,Fiber optic,Electronic check,High,Offer onboarding support or new-customer retention campaign
+4927-WWOOZ,0,1,0.9064826934824047,2,91.45,Month-to-month,Fiber optic,Electronic check,High,Offer onboarding support or new-customer retention campaign
+8593-WHYHV,1,1,0.9048192973165989,3,85.3,Month-to-month,Fiber optic,Electronic check,High,Offer onboarding support or new-customer retention campaign
+6857-VWJDT,1,1,0.9048037818515017,1,95.65,Month-to-month,Fiber optic,Mailed check,High,Offer onboarding support or new-customer retention campaign
+0970-ETWGE,1,1,0.9046037370330905,1,89.55,Month-to-month,Fiber optic,Electronic check,High,Offer onboarding support or new-customer retention campaign
+3722-WPXTK,1,1,0.9040179855034569,1,88.35,Month-to-month,Fiber optic,Electronic check,High,Offer onboarding support or new-customer retention campaign
+2865-TCHJW,1,1,0.9019551162150498,4,89.2,Month-to-month,Fiber optic,Electronic check,High,Offer onboarding support or new-customer retention campaign
+7180-PISOG,1,1,0.9009419484348289,1,74.5,Month-to-month,Fiber optic,Electronic check,High,Offer onboarding support or new-customer retention campaign
+2202-CUYXZ,1,1,0.900085392928979,1,84.85,Month-to-month,Fiber optic,Electronic check,High,Offer onboarding support or new-customer retention campaign
+3716-BDVDB,1,1,0.8994821664441622,1,69.1,Month-to-month,Fiber optic,Electronic check,High,Offer onboarding support or new-customer retention campaign
+0679-IDSTG,1,1,0.8988801321951568,1,69.25,Month-to-month,Fiber optic,Electronic check,High,Offer onboarding support or new-customer retention campaign
+6230-BSUXY,1,1,0.8980282798874447,1,85.0,Month-to-month,Fiber optic,Electronic check,High,Offer onboarding support or new-customer retention campaign
+8622-ZLFKO,0,1,0.8968114615354557,6,90.75,Month-to-month,Fiber optic,Electronic check,High,Offer onboarding support or new-customer retention campaign
+3244-DCJWY,1,1,0.8961418501576573,1,70.25,Month-to-month,Fiber optic,Electronic check,High,Offer onboarding support or new-customer retention campaign
+1853-UDXBW,1,1,0.8957019645385905,1,70.0,Month-to-month,Fiber optic,Electronic check,High,Offer onboarding support or new-customer retention campaign
+8739-XNIKG,0,1,0.8956536995955567,5,84.0,Month-to-month,Fiber optic,Electronic check,High,Offer onboarding support or new-customer retention campaign
+5376-DEQCP,1,1,0.893881583494844,1,70.6,Month-to-month,Fiber optic,Electronic check,High,Offer onboarding support or new-customer retention campaign
+6979-ZNSFF,1,1,0.893315654092093,8,87.05,Month-to-month,Fiber optic,Electronic check,High,Offer onboarding support or new-customer retention campaign
+6372-RFVNS,1,1,0.8928647772585462,1,78.8,Month-to-month,Fiber optic,Electronic check,High,Offer onboarding support or new-customer retention campaign
+7409-KIUTL,1,1,0.8925636814272517,1,71.0,Month-to-month,Fiber optic,Electronic check,High,Offer onboarding support or new-customer retention campaign
+8380-PEFPE,1,1,0.8920808498641807,1,71.65,Month-to-month,Fiber optic,Electronic check,High,Offer onboarding support or new-customer retention campaign
+6630-UJZMY,0,1,0.8918608460224364,4,83.25,Month-to-month,Fiber optic,Electronic check,High,Offer onboarding support or new-customer retention campaign
+1628-BIZYP,0,1,0.8909904248692779,1,85.0,Month-to-month,Fiber optic,Electronic check,High,Offer onboarding support or new-customer retention campaign
+2867-UIMSS,1,1,0.890933322855587,1,80.5,Month-to-month,Fiber optic,Electronic check,High,Offer onboarding support or new-customer retention campaign
+2034-GDRCN,1,1,0.8904003423174656,2,90.4,Month-to-month,Fiber optic,Electronic check,High,Offer onboarding support or new-customer retention campaign
+6969-MVBAI,0,1,0.8884675873176159,9,90.1,Month-to-month,Fiber optic,Electronic check,High,Offer onboarding support or new-customer retention campaign
+3707-GNWHM,1,1,0.887897893597378,1,74.25,Month-to-month,Fiber optic,Mailed check,High,Offer onboarding support or new-customer retention campaign
+7817-BOQPW,1,1,0.8855525149621705,2,75.55,Month-to-month,Fiber optic,Electronic check,High,Offer onboarding support or new-customer retention campaign
+5186-SAMNZ,1,1,0.885368076422714,1,69.5,Month-to-month,Fiber optic,Bank transfer (automatic),High,Offer onboarding support or new-customer retention campaign
+3422-LYEPQ,1,1,0.8851891322098927,1,71.0,Month-to-month,Fiber optic,Electronic check,High,Offer onboarding support or new-customer retention campaign
+3519-ZKXGG,1,1,0.8836939469991493,3,75.85,Month-to-month,Fiber optic,Electronic check,High,Offer onboarding support or new-customer retention campaign
+8775-ERLNB,0,1,0.8835528716011989,1,74.3,Month-to-month,Fiber optic,Electronic check,High,Offer onboarding support or new-customer retention campaign
+8258-GSTJK,1,1,0.8829992985959835,3,77.0,Month-to-month,Fiber optic,Electronic check,High,Offer onboarding support or new-customer retention campaign
+5196-SGOAK,1,1,0.882714227197628,1,75.7,Month-to-month,Fiber optic,Electronic check,High,Offer onboarding support or new-customer retention campaign
+6023-YEBUP,1,1,0.8821319337738553,3,100.95,Month-to-month,Fiber optic,Electronic check,High,Offer onboarding support or new-customer retention campaign
+9507-EXLTT,1,1,0.8817392289950616,1,79.35,Month-to-month,Fiber optic,Bank transfer (automatic),High,Offer onboarding support or new-customer retention campaign
+4445-ZJNMU,0,1,0.8811321659131452,9,99.3,Month-to-month,Fiber optic,Credit card (automatic),High,Offer onboarding support or new-customer retention campaign
+4713-LZDRV,1,1,0.8810124126646052,2,79.6,Month-to-month,Fiber optic,Electronic check,High,Offer onboarding support or new-customer retention campaign
+2254-DLXRI,0,1,0.8808900863566588,1,79.15,Month-to-month,Fiber optic,Mailed check,High,Offer onboarding support or new-customer retention campaign
+4587-VVTOX,1,1,0.8798954156475827,6,105.3,Month-to-month,Fiber optic,Electronic check,High,Offer onboarding support or new-customer retention campaign
+3585-ISXZP,1,1,0.8795554176334971,8,95.65,Month-to-month,Fiber optic,Bank transfer (automatic),High,Offer onboarding support or new-customer retention campaign
+1448-PWKYE,1,1,0.8790596916063581,1,80.0,Month-to-month,Fiber optic,Electronic check,High,Offer onboarding support or new-customer retention campaign
+6328-ZPBGN,1,1,0.8788355845057761,11,95.15,Month-to-month,Fiber optic,Bank transfer (automatic),High,Offer onboarding support or new-customer retention campaign
+8443-ZRDBZ,1,1,0.8773319574903964,4,76.05,Month-to-month,Fiber optic,Electronic check,High,Offer onboarding support or new-customer retention campaign
+9878-TNQGW,1,1,0.8773179002032695,2,80.95,Month-to-month,Fiber optic,Electronic check,High,Offer onboarding support or new-customer retention campaign
+5698-BQJOH,1,1,0.8769379256964208,9,94.4,Month-to-month,Fiber optic,Electronic check,High,Offer onboarding support or new-customer retention campaign
+7249-WBIYX,1,1,0.8755203832880939,10,85.6,Month-to-month,Fiber optic,Electronic check,High,Offer onboarding support or new-customer retention campaign
+0390-DCFDQ,1,1,0.8752735876336498,1,70.45,Month-to-month,Fiber optic,Mailed check,High,Offer onboarding support or new-customer retention campaign
+9611-CTWIH,1,1,0.8742964516012484,3,89.45,Month-to-month,Fiber optic,Electronic check,High,Offer onboarding support or new-customer retention campaign
+5167-ZFFMM,1,1,0.8723090907493408,1,90.85,Month-to-month,Fiber optic,Credit card (automatic),High,Offer onboarding support or new-customer retention campaign
+1320-HTRDR,1,1,0.8712224420837117,3,75.5,Month-to-month,Fiber optic,Electronic check,High,Offer onboarding support or new-customer retention campaign
+8821-XNHVZ,1,1,0.8708072520004287,1,80.05,Month-to-month,Fiber optic,Mailed check,High,Offer onboarding support or new-customer retention campaign
+4090-KPJIP,0,1,0.8699010021821431,3,74.95,Month-to-month,Fiber optic,Electronic check,High,Offer onboarding support or new-customer retention campaign
+6137-NICCO,0,1,0.8692777596513469,6,94.05,Month-to-month,Fiber optic,Mailed check,High,Offer onboarding support or new-customer retention campaign
+4115-NZRKS,0,1,0.8680066895701564,7,89.15,Month-to-month,Fiber optic,Electronic check,High,Offer onboarding support or new-customer retention campaign
+2737-YNGYW,1,1,0.8678501639555892,2,80.55,Month-to-month,Fiber optic,Electronic check,High,Offer onboarding support or new-customer retention campaign
+2077-MPJQO,0,1,0.8674416987056871,7,75.4,Month-to-month,Fiber optic,Electronic check,High,Offer onboarding support or new-customer retention campaign
+6910-HADCM,1,1,0.8665940121997854,1,76.35,Month-to-month,Fiber optic,Electronic check,High,Offer onboarding support or new-customer retention campaign
+1980-KXVPM,1,1,0.8649295437321995,3,75.05,Month-to-month,Fiber optic,Credit card (automatic),High,Offer onboarding support or new-customer retention campaign
+5052-PNLOS,1,1,0.8640802132786621,3,105.35,Month-to-month,Fiber optic,Bank transfer (automatic),High,Offer onboarding support or new-customer retention campaign
+9334-GWGOW,0,1,0.8639067041217923,7,74.85,Month-to-month,Fiber optic,Electronic check,High,Offer onboarding support or new-customer retention campaign
+4229-CZMLL,1,1,0.8630380079686277,6,74.9,Month-to-month,Fiber optic,Electronic check,High,Offer onboarding support or new-customer retention campaign
+4806-KEXQR,1,1,0.8616038369005313,4,79.9,Month-to-month,Fiber optic,Electronic check,High,Offer onboarding support or new-customer retention campaign
+7005-CCBKV,1,1,0.8607703917712621,6,84.4,Month-to-month,Fiber optic,Electronic check,High,Offer onboarding support or new-customer retention campaign
+7235-NXZCP,1,1,0.8602776117337204,2,74.85,Month-to-month,Fiber optic,Mailed check,High,Offer onboarding support or new-customer retention campaign
+8752-STIVR,1,1,0.8584567649487146,4,79.0,Month-to-month,Fiber optic,Electronic check,High,Offer onboarding support or new-customer retention campaign
+9940-RHLFB,1,1,0.8562579944581019,1,75.3,Month-to-month,Fiber optic,Electronic check,High,Offer onboarding support or new-customer retention campaign
+7130-VTEWQ,1,1,0.8551829464327885,8,75.75,Month-to-month,Fiber optic,Electronic check,High,Offer onboarding support or new-customer retention campaign
+8541-QVFKM,0,1,0.8540533727676561,8,73.5,Month-to-month,Fiber optic,Electronic check,High,Offer onboarding support or new-customer retention campaign
+2959-MJHIC,1,1,0.853300433928371,4,80.35,Month-to-month,Fiber optic,Electronic check,High,Offer onboarding support or new-customer retention campaign
+7198-GLXTC,1,1,0.8510817315718234,2,79.0,Month-to-month,Fiber optic,Electronic check,High,Offer onboarding support or new-customer retention campaign
+7354-OIJLX,0,1,0.8504562358200262,9,75.85,Month-to-month,Fiber optic,Electronic check,High,Offer onboarding support or new-customer retention campaign
+7209-JCUDS,1,1,0.85030118642729,10,94.9,Month-to-month,Fiber optic,Electronic check,High,Offer onboarding support or new-customer retention campaign
+8361-LTMKD,1,1,0.8489328988156862,4,74.4,Month-to-month,Fiber optic,Mailed check,High,Offer onboarding support or new-customer retention campaign
+7363-QTBIW,0,1,0.8489078778893145,9,79.75,Month-to-month,Fiber optic,Electronic check,High,Offer onboarding support or new-customer retention campaign
+3721-CNEYS,1,1,0.8475387629939343,2,70.95,Month-to-month,Fiber optic,Electronic check,High,Offer onboarding support or new-customer retention campaign
+3030-YDNRM,0,1,0.8473740655695015,8,74.85,Month-to-month,Fiber optic,Electronic check,High,Offer onboarding support or new-customer retention campaign
+1400-MMYXY,1,1,0.8473266534924506,3,105.9,Month-to-month,Fiber optic,Electronic check,High,Offer onboarding support or new-customer retention campaign
+8699-ASUFO,1,1,0.847039585431272,7,74.4,Month-to-month,Fiber optic,Mailed check,High,Offer onboarding support or new-customer retention campaign
+3199-XGZCY,0,1,0.8468439510487885,8,75.25,Month-to-month,Fiber optic,Electronic check,High,Offer onboarding support or new-customer retention campaign
+5159-YFPKQ,1,1,0.8450007347871505,2,75.8,Month-to-month,Fiber optic,Electronic check,High,Offer onboarding support or new-customer retention campaign
+7912-SYRQT,1,1,0.8449527017234849,7,75.1,Month-to-month,Fiber optic,Bank transfer (automatic),High,Offer onboarding support or new-customer retention campaign
+0235-KGSLC,1,1,0.8437482324075938,1,85.55,Month-to-month,Fiber optic,Credit card (automatic),High,Offer onboarding support or new-customer retention campaign
+6856-RAURS,0,1,0.843652941100492,2,74.9,Month-to-month,Fiber optic,Mailed check,High,Offer onboarding support or new-customer retention campaign
+1731-TVIUK,1,1,0.8427613214111418,4,93.5,Month-to-month,Fiber optic,Electronic check,High,Offer onboarding support or new-customer retention campaign
+5357-TZHPP,1,1,0.8427349806354517,9,84.4,Month-to-month,Fiber optic,Credit card (automatic),High,Offer onboarding support or new-customer retention campaign
+4342-HENTK,1,1,0.8426975636497663,2,70.65,Month-to-month,Fiber optic,Electronic check,High,Offer onboarding support or new-customer retention campaign
+7181-BQYBV,1,1,0.8424882207360226,1,102.45,Month-to-month,Fiber optic,Electronic check,High,Offer onboarding support or new-customer retention campaign
+2761-OCIAX,1,1,0.8420807145097701,2,74.7,Month-to-month,Fiber optic,Electronic check,High,Offer onboarding support or new-customer retention campaign
+9717-QEBGU,0,1,0.8416231432635674,2,70.3,Month-to-month,Fiber optic,Electronic check,High,Offer onboarding support or new-customer retention campaign
+0841-NULXI,1,1,0.8411559293676631,1,35.55,Month-to-month,DSL,Electronic check,High,Offer onboarding support or new-customer retention campaign
+7495-OOKFY,1,1,0.840423742533407,8,80.65,Month-to-month,Fiber optic,Credit card (automatic),High,Offer onboarding support or new-customer retention campaign
+6680-WKXRZ,1,1,0.8388615467769365,3,74.4,Month-to-month,Fiber optic,Bank transfer (automatic),High,Offer onboarding support or new-customer retention campaign
+9747-DDZOS,1,1,0.8367951028140261,1,73.5,Month-to-month,Fiber optic,Bank transfer (automatic),High,Offer onboarding support or new-customer retention campaign
+5442-BHQNG,0,1,0.8367158031547713,2,70.35,Month-to-month,Fiber optic,Electronic check,High,Offer onboarding support or new-customer retention campaign
+6000-APYLU,1,1,0.8361887823528501,9,80.8,Month-to-month,Fiber optic,Electronic check,High,Offer onboarding support or new-customer retention campaign
+8132-YPVBX,0,1,0.8355258087937815,6,85.95,Month-to-month,Fiber optic,Mailed check,High,Offer onboarding support or new-customer retention campaign
+3677-IYRBF,1,1,0.8348680126435215,2,30.4,Month-to-month,DSL,Electronic check,High,Offer onboarding support or new-customer retention campaign
+0923-PNFUB,1,1,0.8315402031985561,3,83.75,Month-to-month,Fiber optic,Electronic check,High,Offer onboarding support or new-customer retention campaign
+7571-YXDAD,1,1,0.8314439185911491,2,74.9,Month-to-month,Fiber optic,Credit card (automatic),High,Offer onboarding support or new-customer retention campaign
+8676-TRMJS,1,1,0.8314223916607333,3,75.0,Month-to-month,Fiber optic,Mailed check,High,Offer onboarding support or new-customer retention campaign
+6376-GAHQE,1,1,0.8307362092463749,4,77.85,Month-to-month,Fiber optic,Electronic check,High,Offer onboarding support or new-customer retention campaign
+2754-SDJRD,0,1,0.8307162066153979,8,100.15,Month-to-month,Fiber optic,Credit card (automatic),High,Offer onboarding support or new-customer retention campaign
+1768-ZAIFU,1,1,0.8279690762975062,1,25.2,Month-to-month,DSL,Electronic check,High,Offer onboarding support or new-customer retention campaign
+0432-CAJZV,0,1,0.8276906949615154,3,90.7,Month-to-month,Fiber optic,Mailed check,High,Offer onboarding support or new-customer retention campaign
+2919-HBCJO,1,1,0.8276237957535192,4,76.65,Month-to-month,Fiber optic,Bank transfer (automatic),High,Offer onboarding support or new-customer retention campaign
+8083-YTZES,1,1,0.8274680196391228,4,74.35,Month-to-month,Fiber optic,Electronic check,High,Offer onboarding support or new-customer retention campaign
+7273-TEFQD,1,1,0.826712033060816,3,41.15,Month-to-month,DSL,Electronic check,High,Offer onboarding support or new-customer retention campaign
+3908-BLSYF,1,1,0.8260129812939777,6,83.9,Month-to-month,Fiber optic,Electronic check,High,Offer onboarding support or new-customer retention campaign
+3320-VEOYC,0,1,0.8258101769503844,14,95.6,Month-to-month,Fiber optic,Electronic check,High,Provide targeted discount or plan optimization
+0685-MLYYM,1,1,0.8256421297189867,2,70.75,Month-to-month,Fiber optic,Electronic check,High,Offer onboarding support or new-customer retention campaign
+8873-GLDMH,0,1,0.8222491477989124,6,73.85,Month-to-month,Fiber optic,Mailed check,High,Offer onboarding support or new-customer retention campaign
+8245-UMPYT,1,1,0.8186998484701908,16,96.4,Month-to-month,Fiber optic,Electronic check,High,Provide targeted discount or plan optimization
+4706-AXVKM,1,1,0.8186279746592301,11,84.8,Month-to-month,Fiber optic,Credit card (automatic),High,Offer onboarding support or new-customer retention campaign
+5419-CONWX,1,1,0.8183102557198533,4,99.8,Month-to-month,Fiber optic,Credit card (automatic),High,Offer onboarding support or new-customer retention campaign
+2027-FECZV,1,1,0.8182015557544031,12,106.7,Month-to-month,Fiber optic,Electronic check,High,Provide targeted discount or plan optimization
+0004-TLHLJ,1,1,0.8162479559795719,4,73.9,Month-to-month,Fiber optic,Electronic check,High,Offer onboarding support or new-customer retention campaign
+2754-XBHTB,1,1,0.8148498727468972,9,77.65,Month-to-month,Fiber optic,Bank transfer (automatic),High,Offer onboarding support or new-customer retention campaign
+7218-HKQFK,1,1,0.8133874771551867,2,94.2,Month-to-month,Fiber optic,Electronic check,High,Offer onboarding support or new-customer retention campaign
+3338-CVVEH,0,1,0.8131516652664986,12,94.55,Month-to-month,Fiber optic,Electronic check,High,Provide targeted discount or plan optimization
+6175-IRFIT,0,1,0.8126611014253442,5,78.75,Month-to-month,Fiber optic,Mailed check,High,Offer onboarding support or new-customer retention campaign
+9741-YLNTD,0,1,0.8114048141232041,6,87.95,Month-to-month,Fiber optic,Bank transfer (automatic),High,Offer onboarding support or new-customer retention campaign
+9643-AVVWI,0,1,0.8113892517616094,3,80.0,Month-to-month,Fiber optic,Electronic check,High,Offer onboarding support or new-customer retention campaign
+9840-DVNDC,1,1,0.8112928795657972,6,80.5,Month-to-month,Fiber optic,Credit card (automatic),High,Offer onboarding support or new-customer retention campaign
+1522-VVDMG,1,1,0.8106071206311571,7,89.75,Month-to-month,Fiber optic,Electronic check,High,Offer onboarding support or new-customer retention campaign
+0258-NOKBL,0,1,0.8101672388699029,3,90.4,Month-to-month,Fiber optic,Electronic check,High,Offer onboarding support or new-customer retention campaign
+4983-CCWMC,0,1,0.8098298310802192,3,69.6,Month-to-month,Fiber optic,Mailed check,High,Offer onboarding support or new-customer retention campaign
+6166-ILMNY,1,1,0.8089181300267985,2,69.75,Month-to-month,Fiber optic,Bank transfer (automatic),High,Offer onboarding support or new-customer retention campaign
+2485-ITVKB,1,1,0.80871246592445,2,35.1,Month-to-month,DSL,Electronic check,High,Offer onboarding support or new-customer retention campaign
+4512-ZUIYL,1,1,0.8085466545222136,2,70.0,Month-to-month,Fiber optic,Bank transfer (automatic),High,Offer onboarding support or new-customer retention campaign
+7952-OBOYL,0,1,0.8079487308793903,3,89.85,Month-to-month,Fiber optic,Mailed check,High,Offer onboarding support or new-customer retention campaign
+5382-SOYZL,0,1,0.8065274742232537,22,95.1,Month-to-month,Fiber optic,Electronic check,High,Provide targeted discount or plan optimization
+1475-VWVDO,0,1,0.8055629030389213,7,74.9,Month-to-month,Fiber optic,Electronic check,High,Offer onboarding support or new-customer retention campaign
+6892-XPFPU,1,1,0.805507747631461,24,104.25,Month-to-month,Fiber optic,Electronic check,High,Provide targeted discount or plan optimization
+8266-VBFQL,0,1,0.8046074828136205,4,90.4,Month-to-month,Fiber optic,Electronic check,High,Offer onboarding support or new-customer retention campaign
+4029-HPFVY,0,1,0.8031244563821964,3,70.3,Month-to-month,Fiber optic,Mailed check,High,Offer onboarding support or new-customer retention campaign
+1016-DJTSV,0,1,0.8025157931067578,8,69.7,Month-to-month,Fiber optic,Electronic check,High,Offer onboarding support or new-customer retention campaign
+2495-INZWQ,1,1,0.8013884689777337,4,44.55,Month-to-month,DSL,Electronic check,High,Offer onboarding support or new-customer retention campaign
+1867-BDVFH,1,1,0.8007820710184235,11,74.35,Month-to-month,Fiber optic,Electronic check,High,Offer onboarding support or new-customer retention campaign
+9576-ANLXO,1,1,0.8000221050541431,3,69.55,Month-to-month,Fiber optic,Bank transfer (automatic),High,Offer onboarding support or new-customer retention campaign
+4735-ASGMA,1,1,0.7978670053286975,26,98.35,Month-to-month,Fiber optic,Electronic check,High,Provide targeted discount or plan optimization
+7928-VJYAB,0,1,0.7976761825500752,11,90.6,Month-to-month,Fiber optic,Electronic check,High,Offer onboarding support or new-customer retention campaign
+2985-FMWYF,0,1,0.7973962404711155,23,93.5,Month-to-month,Fiber optic,Electronic check,High,Provide targeted discount or plan optimization
+0958-YHXGP,0,1,0.7942817939802785,7,69.9,Month-to-month,Fiber optic,Mailed check,High,Offer onboarding support or new-customer retention campaign
+2482-CZGBB,1,1,0.7942259033434386,10,70.0,Month-to-month,Fiber optic,Electronic check,High,Offer onboarding support or new-customer retention campaign
+1379-FRVEB,0,1,0.794004202589446,15,91.0,Month-to-month,Fiber optic,Electronic check,High,Provide targeted discount or plan optimization
+0871-URUWO,1,1,0.7932084083682814,13,102.25,Month-to-month,Fiber optic,Credit card (automatic),High,Provide targeted discount or plan optimization
+9221-OTIVJ,1,1,0.7929674858799468,14,104.85,Month-to-month,Fiber optic,Electronic check,High,Provide targeted discount or plan optimization
+0616-ATFGB,1,1,0.7923021948455173,1,25.05,Month-to-month,DSL,Electronic check,High,Offer onboarding support or new-customer retention campaign
+0876-WDUUZ,1,1,0.7912860232915583,5,85.4,Month-to-month,Fiber optic,Credit card (automatic),High,Offer onboarding support or new-customer retention campaign
+1024-GUALD,1,1,0.7912198466331957,1,24.8,Month-to-month,DSL,Electronic check,High,Offer onboarding support or new-customer retention campaign
+6077-BDPXA,0,1,0.7908335169490643,3,70.15,Month-to-month,Fiber optic,Electronic check,High,Offer onboarding support or new-customer retention campaign
+6608-QQLVK,1,1,0.7903344887457697,1,50.5,Month-to-month,DSL,Electronic check,High,Offer onboarding support or new-customer retention campaign
+3750-CKVKH,1,1,0.7898897654186986,2,67.75,Month-to-month,Fiber optic,Electronic check,High,Offer onboarding support or new-customer retention campaign
+0581-BXBUB,0,1,0.7879005265614142,4,72.75,Month-to-month,Fiber optic,Electronic check,High,Offer onboarding support or new-customer retention campaign
+7410-YTJIK,1,1,0.7863797476007253,7,75.45,Month-to-month,Fiber optic,Mailed check,High,Offer onboarding support or new-customer retention campaign
+5480-HPRRX,1,1,0.7852866413645164,3,25.3,Month-to-month,DSL,Electronic check,High,Offer onboarding support or new-customer retention campaign
+3717-OEAUQ,0,1,0.7833865238066543,2,70.7,Month-to-month,Fiber optic,Mailed check,High,Offer onboarding support or new-customer retention campaign
+9685-WKZGT,1,1,0.7831152498575945,14,74.95,Month-to-month,Fiber optic,Electronic check,High,Provide targeted discount or plan optimization
+8397-MVTAZ,1,1,0.7830987011193064,34,100.05,Month-to-month,Fiber optic,Electronic check,High,Provide targeted discount or plan optimization
+8650-RHRKE,1,1,0.7810260120104358,4,29.65,Month-to-month,DSL,Electronic check,High,Offer onboarding support or new-customer retention campaign
+2845-HSJCY,1,1,0.780121419496602,14,87.25,Month-to-month,Fiber optic,Electronic check,High,Provide targeted discount or plan optimization
+6899-PPEEA,1,1,0.78007677213326,37,96.55,Month-to-month,Fiber optic,Electronic check,High,Provide targeted discount or plan optimization
+6047-YHPVI,1,1,0.7798842065727162,5,69.7,Month-to-month,Fiber optic,Electronic check,High,Offer onboarding support or new-customer retention campaign
+1077-HUUJM,0,1,0.7793983766516545,7,71.05,Month-to-month,Fiber optic,Electronic check,High,Offer onboarding support or new-customer retention campaign
+4706-DGAHW,0,1,0.7766715425665045,1,45.2,Month-to-month,DSL,Electronic check,High,Offer onboarding support or new-customer retention campaign
+8080-DDEMJ,1,1,0.773963759050695,1,45.1,Month-to-month,DSL,Electronic check,High,Offer onboarding support or new-customer retention campaign
+8739-WWKDU,1,1,0.7735973035414866,25,89.5,Month-to-month,Fiber optic,Electronic check,High,Provide targeted discount or plan optimization
+1751-NCDLI,0,1,0.7727190045288664,46,98.85,Month-to-month,Fiber optic,Electronic check,High,Provide targeted discount or plan optimization
+9692-TUSXH,1,1,0.7726208878861359,18,96.05,Month-to-month,Fiber optic,Electronic check,High,Provide targeted discount or plan optimization
+2439-LYPMQ,0,1,0.7703151517821086,38,102.6,Month-to-month,Fiber optic,Electronic check,High,Provide targeted discount or plan optimization
+8445-DNBAE,0,1,0.7700823913366053,1,50.05,Month-to-month,DSL,Electronic check,High,Offer onboarding support or new-customer retention campaign
+0023-XUOPT,1,1,0.7670840033196837,13,94.1,Month-to-month,Fiber optic,Electronic check,High,Provide targeted discount or plan optimization
+3966-HRMZA,0,1,0.7656863059426814,3,75.05,Month-to-month,Fiber optic,Mailed check,High,Offer onboarding support or new-customer retention campaign
+1112-CUNAO,1,1,0.7643395930347777,15,89.85,Month-to-month,Fiber optic,Electronic check,High,Provide targeted discount or plan optimization
+4631-OACRM,1,1,0.7638843326645196,15,79.4,Month-to-month,Fiber optic,Electronic check,High,Provide targeted discount or plan optimization
+5628-FCGYG,0,1,0.7614264851562762,21,84.1,Month-to-month,Fiber optic,Electronic check,High,Provide targeted discount or plan optimization
+5133-POWUA,0,1,0.761181330820948,1,45.8,Month-to-month,DSL,Mailed check,High,Offer onboarding support or new-customer retention campaign
+4237-RLAQD,1,1,0.761181330820948,1,45.85,Month-to-month,DSL,Mailed check,High,Offer onboarding support or new-customer retention campaign
+5501-TVMGM,0,1,0.7605346241195908,1,55.25,Month-to-month,DSL,Electronic check,High,Offer onboarding support or new-customer retention campaign
+8280-MQRQN,1,1,0.7595025282703229,1,50.45,Month-to-month,DSL,Mailed check,High,Offer onboarding support or new-customer retention campaign
+4301-VVZKA,0,1,0.7594945201389984,16,75.4,Month-to-month,Fiber optic,Electronic check,High,Provide targeted discount or plan optimization
+6543-XRMYR,1,1,0.7591273660086735,30,99.7,Month-to-month,Fiber optic,Electronic check,High,Provide targeted discount or plan optimization
+3292-PBZEJ,0,1,0.7587350833641052,11,111.4,Month-to-month,Fiber optic,Electronic check,High,Offer onboarding support or new-customer retention campaign
+0506-LVNGN,1,1,0.755966910741159,5,75.55,Month-to-month,Fiber optic,Credit card (automatic),High,Offer onboarding support or new-customer retention campaign
+2057-ZBLPD,1,1,0.7555096733146917,21,86.5,Month-to-month,Fiber optic,Electronic check,High,Provide targeted discount or plan optimization
+4817-VYYWS,1,1,0.7551576355777022,30,100.2,Month-to-month,Fiber optic,Electronic check,High,Provide targeted discount or plan optimization
+9054-FOWNV,0,1,0.7548341160407995,22,88.75,Month-to-month,Fiber optic,Electronic check,High,Provide targeted discount or plan optimization
+5228-EXCET,1,1,0.754178443392926,13,80.85,Month-to-month,Fiber optic,Electronic check,High,Provide targeted discount or plan optimization
+2025-JKFWI,1,1,0.7537517878556812,13,99.0,Month-to-month,Fiber optic,Mailed check,High,Provide targeted discount or plan optimization
+7278-CKDNC,0,1,0.7536226469238059,24,80.5,Month-to-month,Fiber optic,Electronic check,High,Provide targeted discount or plan optimization
+6651-AZVTJ,1,1,0.7525467834814618,49,99.8,Month-to-month,Fiber optic,Electronic check,High,Provide targeted discount or plan optimization
+2386-LAHRK,1,1,0.7522412229759871,1,53.5,Month-to-month,DSL,Mailed check,High,Offer onboarding support or new-customer retention campaign
+0330-IVZHA,1,1,0.7515857697390247,5,69.95,Month-to-month,Fiber optic,Electronic check,High,Offer onboarding support or new-customer retention campaign
+6705-LXORM,0,1,0.7507529099220153,5,70.05,Month-to-month,Fiber optic,Electronic check,High,Offer onboarding support or new-customer retention campaign
+4686-UXDML,0,1,0.7505639024396177,21,99.85,Month-to-month,Fiber optic,Credit card (automatic),High,Provide targeted discount or plan optimization
+9907-SWKKF,1,1,0.7502995636771682,1,25.05,Month-to-month,DSL,Mailed check,High,Offer onboarding support or new-customer retention campaign
+4283-FUTGF,1,1,0.7501008769856305,19,79.85,Month-to-month,Fiber optic,Electronic check,High,Provide targeted discount or plan optimization
+7861-UVUFT,1,1,0.7500769439374505,15,84.3,Month-to-month,Fiber optic,Electronic check,High,Provide targeted discount or plan optimization
+6034-YMTOB,0,1,0.7498220977667953,5,75.65,Month-to-month,Fiber optic,Mailed check,High,Offer onboarding support or new-customer retention campaign
+8903-XEBGX,0,1,0.7496323232585496,2,55.3,Month-to-month,DSL,Electronic check,High,Offer onboarding support or new-customer retention campaign
+8818-DOPVL,0,1,0.7494656728042897,46,104.45,Month-to-month,Fiber optic,Electronic check,High,Provide targeted discount or plan optimization
+6821-BUXUX,1,1,0.7487437025984571,13,96.65,Month-to-month,Fiber optic,Electronic check,High,Provide targeted discount or plan optimization
+7029-RPUAV,1,1,0.7487193418927794,17,100.45,Month-to-month,Fiber optic,Credit card (automatic),High,Provide targeted discount or plan optimization
+0952-KMEEH,1,1,0.7474554262929973,13,98.15,Month-to-month,Fiber optic,Mailed check,High,Provide targeted discount or plan optimization
+8709-KRDVL,0,1,0.7473565151260877,33,100.0,Month-to-month,Fiber optic,Electronic check,High,Provide targeted discount or plan optimization
+9279-CJEOJ,0,1,0.7469939537899275,21,95.4,Month-to-month,Fiber optic,Bank transfer (automatic),High,Provide targeted discount or plan optimization
+5692-FPTAH,1,1,0.7465654995672334,1,45.4,Month-to-month,DSL,Mailed check,High,Offer onboarding support or new-customer retention campaign
+7587-RZNME,1,1,0.7460897068151112,3,43.3,Month-to-month,DSL,Electronic check,High,Offer onboarding support or new-customer retention campaign
+2665-NPTGL,0,1,0.7460326865535714,26,98.1,Month-to-month,Fiber optic,Bank transfer (automatic),High,Provide targeted discount or plan optimization
+5380-WJKOV,1,1,0.7453971286224104,34,106.35,Month-to-month,Fiber optic,Electronic check,High,Provide targeted discount or plan optimization
+0322-CHQRU,1,1,0.7411663926803618,2,45.35,Month-to-month,DSL,Electronic check,High,Offer onboarding support or new-customer retention campaign
+7056-IMHCC,1,1,0.740679570861571,53,101.9,Month-to-month,Fiber optic,Electronic check,High,Provide targeted discount or plan optimization
+9638-JIQYA,0,1,0.7397106020941251,2,24.9,Month-to-month,DSL,Credit card (automatic),High,Offer onboarding support or new-customer retention campaign
+1942-OQFRW,0,1,0.7385856638648046,1,44.0,Month-to-month,DSL,Electronic check,High,Offer onboarding support or new-customer retention campaign
+7181-OQCUT,0,1,0.7385248952231336,21,103.85,Month-to-month,Fiber optic,Mailed check,High,Provide targeted discount or plan optimization
+7054-LGEQW,1,1,0.7383262656090527,1,45.95,Month-to-month,DSL,Mailed check,High,Offer onboarding support or new-customer retention campaign
+5103-MHMHY,1,1,0.7382847596084133,1,45.95,Month-to-month,DSL,Mailed check,High,Offer onboarding support or new-customer retention campaign
+0899-LIIBW,0,1,0.7371756201019553,34,100.85,Month-to-month,Fiber optic,Electronic check,High,Provide targeted discount or plan optimization
+0524-IAVZO,1,1,0.7367620681721957,30,85.0,Month-to-month,Fiber optic,Electronic check,High,Provide targeted discount or plan optimization
+3672-YITQD,1,1,0.7365327161562841,36,84.1,Month-to-month,Fiber optic,Electronic check,High,Provide targeted discount or plan optimization
+6158-HDPXZ,0,1,0.7362215237452393,1,25.35,Month-to-month,DSL,Mailed check,High,Offer onboarding support or new-customer retention campaign
+8378-LKJAF,0,1,0.7347357693341569,38,101.15,Month-to-month,Fiber optic,Credit card (automatic),High,Provide targeted discount or plan optimization
+4873-ILOLJ,1,1,0.7345966505584863,24,90.35,Month-to-month,Fiber optic,Electronic check,High,Provide targeted discount or plan optimization
+2187-PKZAY,0,1,0.7344612700658184,12,79.95,Month-to-month,Fiber optic,Bank transfer (automatic),High,Provide targeted discount or plan optimization
+7663-RGWBC,1,1,0.7342588449985277,1,44.15,Month-to-month,DSL,Mailed check,High,Offer onboarding support or new-customer retention campaign
+3063-QFSZL,1,1,0.7341477835584681,1,55.4,Month-to-month,DSL,Electronic check,High,Offer onboarding support or new-customer retention campaign
+0576-WNXXC,1,1,0.7334361841312779,27,95.55,Month-to-month,Fiber optic,Electronic check,High,Provide targeted discount or plan optimization
+8993-PHFWD,1,1,0.7334079385445837,3,25.25,Month-to-month,DSL,Electronic check,High,Offer onboarding support or new-customer retention campaign
+0988-JRWWP,0,1,0.7321637218650235,3,54.2,Month-to-month,DSL,Electronic check,High,Offer onboarding support or new-customer retention campaign
+7748-UMTRK,0,1,0.7320034166981492,30,101.3,Month-to-month,Fiber optic,Electronic check,High,Provide targeted discount or plan optimization
+3334-CTHOL,1,1,0.7313235113101498,1,49.95,Month-to-month,DSL,Bank transfer (automatic),High,Offer onboarding support or new-customer retention campaign
+5339-PXDVH,0,1,0.730470807731257,4,90.65,Month-to-month,Fiber optic,Electronic check,High,Offer onboarding support or new-customer retention campaign
+7250-EQKIY,1,1,0.7302305088113056,1,50.45,Month-to-month,DSL,Mailed check,High,Offer onboarding support or new-customer retention campaign
+0376-YMCJC,1,1,0.7297264481257902,23,90.6,Month-to-month,Fiber optic,Electronic check,High,Provide targeted discount or plan optimization
+2800-QQUSO,0,1,0.7293232028718396,42,100.3,Month-to-month,Fiber optic,Electronic check,High,Provide targeted discount or plan optimization
+3365-SAIGS,0,1,0.7284744588492694,17,83.55,Month-to-month,Fiber optic,Electronic check,High,Provide targeted discount or plan optimization
+6507-ZJSUR,0,1,0.7280692794135601,23,90.45,Month-to-month,Fiber optic,Electronic check,High,Provide targeted discount or plan optimization
+6338-AVWCY,1,1,0.7280001446154469,3,40.15,Month-to-month,DSL,Mailed check,High,Offer onboarding support or new-customer retention campaign
+6712-OAWRH,1,1,0.7278898087447334,26,91.25,Month-to-month,Fiber optic,Electronic check,High,Provide targeted discount or plan optimization
+4208-UFFGW,1,1,0.7278725134592221,2,44.95,Month-to-month,DSL,Mailed check,High,Offer onboarding support or new-customer retention campaign
+5022-JNQEQ,0,1,0.7277115986289133,9,75.85,Month-to-month,Fiber optic,Electronic check,High,Offer onboarding support or new-customer retention campaign
+3858-VOBET,1,1,0.7260571793886444,23,74.95,Month-to-month,Fiber optic,Electronic check,High,Provide targeted discount or plan optimization
+6319-IEJWJ,1,1,0.7232286644997803,20,90.2,Month-to-month,Fiber optic,Electronic check,High,Provide targeted discount or plan optimization
+5144-TVGLP,0,1,0.7229214350468861,38,94.75,Month-to-month,Fiber optic,Electronic check,High,Provide targeted discount or plan optimization
+2501-XWWTZ,0,1,0.7226237646931547,11,70.2,Month-to-month,Fiber optic,Electronic check,High,Offer onboarding support or new-customer retention campaign
+4223-WOZCM,0,1,0.7222540582797794,2,49.95,Month-to-month,DSL,Mailed check,High,Offer onboarding support or new-customer retention campaign
+9227-LUNBG,1,1,0.7219148178570164,1,24.6,Month-to-month,DSL,Electronic check,High,Offer onboarding support or new-customer retention campaign
+8696-JKZNU,1,1,0.7216212129881203,37,76.25,Month-to-month,Fiber optic,Electronic check,High,Provide targeted discount or plan optimization
+4412-YLTKF,1,1,0.7203861805195527,27,78.05,Month-to-month,Fiber optic,Electronic check,High,Provide targeted discount or plan optimization
+1302-UHBDD,0,1,0.7193050222801814,20,89.95,Month-to-month,Fiber optic,Electronic check,High,Provide targeted discount or plan optimization
+8938-UMKPI,1,1,0.7188461282937778,47,106.4,Month-to-month,Fiber optic,Electronic check,High,Provide targeted discount or plan optimization
+6661-HBGWL,1,1,0.7184175899370991,42,104.75,Month-to-month,Fiber optic,Bank transfer (automatic),High,Provide targeted discount or plan optimization
+4846-WHAFZ,1,1,0.7178477583685384,37,76.5,Month-to-month,Fiber optic,Electronic check,High,Provide targeted discount or plan optimization
+2277-VWCNI,0,1,0.7176780515300862,4,48.75,Month-to-month,DSL,Mailed check,High,Offer onboarding support or new-customer retention campaign
+1035-IPQPU,0,1,0.7167689743648471,63,103.5,Month-to-month,Fiber optic,Electronic check,High,Provide targeted discount or plan optimization
+8393-DLHGA,1,1,0.7156311524818731,25,95.9,Month-to-month,Fiber optic,Electronic check,High,Provide targeted discount or plan optimization
+6377-WHAOX,0,1,0.71494523059658,60,106.15,Month-to-month,Fiber optic,Electronic check,High,Provide targeted discount or plan optimization
+1658-TJVOA,0,1,0.7144052156010051,6,74.1,Month-to-month,Fiber optic,Electronic check,High,Offer onboarding support or new-customer retention campaign
+1902-XBTFB,1,1,0.7138487722786898,22,89.4,Month-to-month,Fiber optic,Electronic check,High,Provide targeted discount or plan optimization
+2672-OJQZP,0,1,0.7131320087460049,1,44.75,Month-to-month,DSL,Mailed check,High,Offer onboarding support or new-customer retention campaign
+1894-IGFSG,1,1,0.7120869265252647,22,89.25,Month-to-month,Fiber optic,Electronic check,High,Provide targeted discount or plan optimization
+2955-BJZHG,1,1,0.7114397836055139,17,80.85,Month-to-month,Fiber optic,Electronic check,High,Provide targeted discount or plan optimization
+7534-BFESC,1,1,0.7110022551347271,24,76.1,Month-to-month,Fiber optic,Electronic check,High,Provide targeted discount or plan optimization
+5226-NOZFC,0,1,0.7109860166768868,26,85.75,Month-to-month,Fiber optic,Electronic check,High,Provide targeted discount or plan optimization
+0265-PSUAE,0,1,0.7106570582734154,16,100.7,Month-to-month,Fiber optic,Bank transfer (automatic),High,Provide targeted discount or plan optimization
+5650-YLIBA,0,1,0.7105585190266546,31,81.15,Month-to-month,Fiber optic,Electronic check,High,Provide targeted discount or plan optimization
+4317-VTEOA,1,1,0.7102974737448067,1,50.75,Month-to-month,DSL,Electronic check,High,Offer onboarding support or new-customer retention campaign
+6542-LWGXJ,0,1,0.7090500536930762,3,25.0,Month-to-month,DSL,Mailed check,High,Offer onboarding support or new-customer retention campaign
+2860-RANUS,1,1,0.7087016955668846,20,85.8,Month-to-month,Fiber optic,Credit card (automatic),High,Provide targeted discount or plan optimization
+0388-EOPEX,1,1,0.7079222817099886,2,74.4,Month-to-month,Fiber optic,Electronic check,High,Offer onboarding support or new-customer retention campaign
+2325-NBPZG,0,1,0.7074491009342714,3,74.55,Month-to-month,Fiber optic,Electronic check,High,Offer onboarding support or new-customer retention campaign
+2480-SQIOB,0,1,0.707104078203648,4,44.8,Month-to-month,DSL,Electronic check,High,Offer onboarding support or new-customer retention campaign
+1895-QTKDO,0,1,0.7070675102864737,1,43.95,Month-to-month,DSL,Credit card (automatic),High,Offer onboarding support or new-customer retention campaign
+6481-ESCNL,0,1,0.7057542585445619,29,100.55,Month-to-month,Fiber optic,Bank transfer (automatic),High,Provide targeted discount or plan optimization
+1236-WFCDV,1,1,0.7057540094070726,14,90.45,Month-to-month,Fiber optic,Credit card (automatic),High,Provide targeted discount or plan optimization
+4647-MUZON,0,1,0.7042687049378112,18,95.95,Month-to-month,Fiber optic,Credit card (automatic),High,Provide targeted discount or plan optimization
+8059-UDZFY,0,1,0.7035734018588178,33,105.35,Month-to-month,Fiber optic,Bank transfer (automatic),High,Provide targeted discount or plan optimization
+9752-ZNQUT,0,1,0.7029989127709548,1,48.6,Month-to-month,DSL,Electronic check,High,Offer onboarding support or new-customer retention campaign
+8778-LMWTJ,0,1,0.7017750486935487,9,74.85,Month-to-month,Fiber optic,Electronic check,High,Offer onboarding support or new-customer retention campaign
+9389-ACWBI,0,1,0.7016774669022805,5,69.95,Month-to-month,Fiber optic,Credit card (automatic),High,Offer onboarding support or new-customer retention campaign
+9465-RWMXL,1,1,0.7012348084134581,32,78.9,Month-to-month,Fiber optic,Electronic check,High,Provide targeted discount or plan optimization
+1092-GANHU,1,1,0.7008101203273969,17,76.65,Month-to-month,Fiber optic,Electronic check,High,Provide targeted discount or plan optimization
+9866-QEVEE,1,1,0.7004889496238658,19,86.0,Month-to-month,Fiber optic,Bank transfer (automatic),High,Provide targeted discount or plan optimization
+3374-LXDEV,1,1,0.7001407595976017,13,89.4,Month-to-month,Fiber optic,Electronic check,High,Provide targeted discount or plan optimization

@@ -1,0 +1,38 @@
+# Local conda environment (do not commit)
+.conda/
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+.venv/
+venv/
+env/
+*.egg-info/
+.eggs/
+dist/
+build/
+
+# Testing / tools
+.pytest_cache/
+.coverage
+htmlcov/
+.mypy_cache/
+.ruff_cache/
+
+# OS / editor
+.DS_Store
+Thumbs.db
+*.swp
+.idea/
+
+# Secrets
+.env
+.env.*
+
+# Optional: large generated artifacts (uncomment if you prefer not to version them)
+# outputs/
+# models/*.pkl
+# models/*.joblib

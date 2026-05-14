@@ -1,0 +1,45 @@
+feature,abs_coef
+cat__InternetService_Fiber optic,0.7636211147883949
+cat__InternetService_DSL,0.7058461610277529
+num__tenure,0.691707225605144
+num__MonthlyCharges,0.6056003731835655
+cat__Contract_Two year,0.5679545774706479
+num__is_month_to_month,0.4412931087062101
+cat__MultipleLines_No,0.2873538182745403
+num__service_count,0.2710761512429027
+cat__DeviceProtection_No internet service,0.26894343583049
+cat__OnlineBackup_No internet service,0.26894343583049
+cat__InternetService_No,0.26894343583049
+cat__StreamingTV_No internet service,0.26894343583049
+cat__TechSupport_No internet service,0.26894343583049
+cat__StreamingMovies_No internet service,0.26894343583049
+cat__OnlineSecurity_No internet service,0.26894343583049
+num__is_new_customer,0.2649613397928781
+cat__Contract_One year,0.25353803029847166
+cat__OnlineSecurity_No,0.23431910100892533
+cat__PaymentMethod_Electronic check,0.22996101810975741
+cat__StreamingMovies_Yes,0.22347868592430395
+num__TotalCharges,0.21026982110385586
+cat__StreamingTV_Yes,0.20822737579656966
+cat__TechSupport_No,0.19628345117813292
+cat__OnlineSecurity_Yes,0.1765441472482903
+num__PaperlessBilling,0.16902683344424368
+cat__StreamingMovies_No,0.16570373216366885
+cat__PaymentMethod_Bank transfer (automatic),0.16523355527073447
+cat__PaymentMethod_Credit card (automatic),0.15224657328370753
+num__avg_monthly_spend,0.15074752582570042
+cat__StreamingTV_No,0.15045242203593895
+cat__TechSupport_Yes,0.13850849741750354
+cat__PaymentMethod_Mailed check,0.12364937162517389
+cat__MultipleLines_Yes,0.12088063449487377
+cat__OnlineBackup_No,0.1139783806063966
+cat__Contract_Month-to-month,0.1032480651023056
+num__Dependents,0.09684644903544788
+num__PhoneService,0.07942097584487183
+num__SeniorCitizen,0.05842118446751669
+cat__OnlineBackup_Yes,0.05620342684576747
+cat__DeviceProtection_No,0.05011093345392513
+cat__MultipleLines_No phone service,0.044695298290189596
+num__gender,0.013498753701010367
+num__Partner,0.011248301677623283
+cat__DeviceProtection_Yes,0.0076640203067023325

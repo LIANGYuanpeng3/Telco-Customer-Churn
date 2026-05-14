@@ -1,0 +1,45 @@
+rank_by_importance,feature,feature_importance,business_theme
+1,cat__Contract_Month-to-month,0.13060369900338878,contract
+2,num__is_month_to_month,0.10804949753211822,
+3,num__tenure,0.08584737910167763,tenure
+4,cat__OnlineSecurity_No,0.0717574891257061,onlinesecurity
+5,num__TotalCharges,0.07008164907504995,totalcharges
+6,num__avg_monthly_spend,0.05400265099600656,
+7,cat__Contract_Two year,0.05231958647074948,contract
+8,num__MonthlyCharges,0.05206430569956757,monthlycharges
+9,num__is_new_customer,0.041435865943973436,
+10,cat__TechSupport_No,0.03923424294603425,techsupport
+11,cat__InternetService_Fiber optic,0.03897220584440622,
+12,cat__PaymentMethod_Electronic check,0.029131884561415394,
+13,cat__Contract_One year,0.01655080829848529,contract
+14,cat__OnlineBackup_No,0.01464817172914528,
+15,cat__InternetService_DSL,0.014192593228769142,
+16,num__service_count,0.012253183952231739,
+17,num__PaperlessBilling,0.010258267051465497,
+18,cat__OnlineSecurity_Yes,0.010251595286459345,onlinesecurity
+19,cat__DeviceProtection_No internet service,0.010060725578960579,
+20,cat__TechSupport_Yes,0.009562081951901018,techsupport
+21,cat__StreamingMovies_No internet service,0.009027676077200876,
+22,cat__InternetService_No,0.00884811837168904,
+23,cat__OnlineBackup_No internet service,0.007057449183650812,
+24,cat__StreamingTV_No internet service,0.006723708846520363,
+25,num__gender,0.006613982676616315,
+26,cat__TechSupport_No internet service,0.006420420351840418,techsupport
+27,num__Dependents,0.005834813769919205,
+28,cat__DeviceProtection_No,0.0057546365852951765,
+29,cat__StreamingMovies_Yes,0.005732662219512121,
+30,num__Partner,0.005569806077759806,
+31,cat__StreamingTV_Yes,0.005444311275860531,
+32,cat__OnlineBackup_Yes,0.005389543484971179,
+33,cat__PaymentMethod_Bank transfer (automatic),0.005352145442960767,
+34,cat__OnlineSecurity_No internet service,0.005195153691120522,onlinesecurity
+35,cat__PaymentMethod_Credit card (automatic),0.00493276992306537,
+36,cat__StreamingMovies_No,0.004794096384019464,
+37,cat__MultipleLines_Yes,0.004793357789264551,
+38,cat__MultipleLines_No,0.004617545497549695,
+39,cat__StreamingTV_No,0.0045892873841841325,
+40,num__SeniorCitizen,0.00407343777543211,
+41,cat__PaymentMethod_Mailed check,0.004069797963328043,
+42,cat__DeviceProtection_Yes,0.0034566550066607205,
+43,num__PhoneService,0.0022937148244322214,
+44,cat__MultipleLines_No phone service,0.0021370260196351396,

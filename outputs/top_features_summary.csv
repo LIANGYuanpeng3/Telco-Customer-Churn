@@ -1,0 +1,45 @@
+feature,coefficient,abs_coefficient,lr_rank_by_abs_coef,feature_importance,rf_rank_by_importance,business_theme,best_rank_lr_rf,row_type,summary_block,rank_by_permutation_mean,permutation_importance_mean,permutation_importance_std
+cat__Contract_Month-to-month,0.1032480651023056,0.1032480651023056,35.0,0.13060369900338878,1.0,contract,1.0,top_lr_rf_by_min_rank,transformed_features,,,
+cat__InternetService_Fiber optic,0.7636211147883949,0.7636211147883949,1.0,0.03897220584440622,11.0,,1.0,top_lr_rf_by_min_rank,transformed_features,,,
+cat__InternetService_DSL,-0.7058461610277529,0.7058461610277529,2.0,0.014192593228769142,15.0,,2.0,top_lr_rf_by_min_rank,transformed_features,,,
+num__is_month_to_month,0.4412931087062101,0.4412931087062101,6.0,0.10804949753211822,2.0,,2.0,top_lr_rf_by_min_rank,transformed_features,,,
+num__tenure,-0.691707225605144,0.691707225605144,3.0,0.08584737910167763,3.0,tenure,3.0,top_lr_rf_by_min_rank,transformed_features,,,
+num__MonthlyCharges,-0.6056003731835655,0.6056003731835655,4.0,0.05206430569956757,8.0,monthlycharges,4.0,top_lr_rf_by_min_rank,transformed_features,,,
+cat__OnlineSecurity_No,0.23431910100892533,0.23431910100892533,18.0,0.0717574891257061,4.0,onlinesecurity,4.0,top_lr_rf_by_min_rank,transformed_features,,,
+cat__Contract_Two year,-0.5679545774706479,0.5679545774706479,5.0,0.05231958647074948,7.0,contract,5.0,top_lr_rf_by_min_rank,transformed_features,,,
+num__TotalCharges,0.21026982110385586,0.21026982110385586,21.0,0.07008164907504995,5.0,totalcharges,5.0,top_lr_rf_by_min_rank,transformed_features,,,
+num__avg_monthly_spend,-0.15074752582570042,0.15074752582570042,29.0,0.05400265099600656,6.0,,6.0,top_lr_rf_by_min_rank,transformed_features,,,
+cat__MultipleLines_No,-0.2873538182745403,0.2873538182745403,7.0,0.004617545497549695,38.0,,7.0,top_lr_rf_by_min_rank,transformed_features,,,
+num__service_count,0.2710761512429027,0.2710761512429027,8.0,0.012253183952231739,16.0,,8.0,top_lr_rf_by_min_rank,transformed_features,,,
+cat__DeviceProtection_No internet service,-0.26894343583049,0.26894343583049,9.0,0.010060725578960579,19.0,,9.0,top_lr_rf_by_min_rank,transformed_features,,,
+num__is_new_customer,0.2649613397928781,0.2649613397928781,16.0,0.041435865943973436,9.0,,9.0,top_lr_rf_by_min_rank,transformed_features,,,
+cat__TechSupport_No,0.19628345117813292,0.19628345117813292,23.0,0.03923424294603425,10.0,techsupport,10.0,top_lr_rf_by_min_rank,transformed_features,,,
+cat__OnlineBackup_No internet service,-0.26894343583049,0.26894343583049,10.0,0.007057449183650812,23.0,,10.0,top_lr_rf_by_min_rank,transformed_features,,,
+cat__InternetService_No,-0.26894343583049,0.26894343583049,11.0,0.00884811837168904,22.0,,11.0,top_lr_rf_by_min_rank,transformed_features,,,
+cat__PaymentMethod_Electronic check,0.22996101810975741,0.22996101810975741,19.0,0.029131884561415394,12.0,,12.0,top_lr_rf_by_min_rank,transformed_features,,,
+cat__StreamingTV_No internet service,-0.26894343583049,0.26894343583049,12.0,0.006723708846520363,24.0,,12.0,top_lr_rf_by_min_rank,transformed_features,,,
+cat__TechSupport_No internet service,-0.26894343583049,0.26894343583049,13.0,0.006420420351840418,26.0,techsupport,13.0,top_lr_rf_by_min_rank,transformed_features,,,
+cat__Contract_One year,0.25353803029847166,0.25353803029847166,17.0,0.01655080829848529,13.0,contract,13.0,business_theme_highlight,transformed_features,,,
+cat__OnlineSecurity_No internet service,-0.26894343583049,0.26894343583049,15.0,0.005195153691120522,34.0,onlinesecurity,15.0,business_theme_highlight,transformed_features,,,
+cat__OnlineSecurity_Yes,-0.1765441472482903,0.1765441472482903,24.0,0.010251595286459345,18.0,onlinesecurity,18.0,business_theme_highlight,transformed_features,,,
+cat__TechSupport_Yes,-0.13850849741750354,0.13850849741750354,31.0,0.009562081951901018,20.0,techsupport,20.0,business_theme_highlight,transformed_features,,,
+Contract,,,,,,contract,,permutation_raw_feature,raw_features_permutation,1.0,0.032056799882886934,0.004506561947506584
+InternetService,,,,,,,,permutation_raw_feature,raw_features_permutation,2.0,0.01516598207135303,0.0038584775855057775
+tenure,,,,,,tenure,,permutation_raw_feature,raw_features_permutation,3.0,0.014457102999302578,0.0021990895999220335
+is_month_to_month,,,,,,,,permutation_raw_feature,raw_features_permutation,4.0,0.009972185624359626,0.002075021495914921
+TotalCharges,,,,,,totalcharges,,permutation_raw_feature,raw_features_permutation,5.0,0.009777140544404062,0.0012218547994805782
+OnlineSecurity,,,,,,onlinesecurity,,permutation_raw_feature,raw_features_permutation,6.0,0.005835077113849607,0.001990087949364437
+is_new_customer,,,,,,,,permutation_raw_feature,raw_features_permutation,7.0,0.0046130529506489696,0.0014548780215176346
+TechSupport,,,,,,techsupport,,permutation_raw_feature,raw_features_permutation,8.0,0.003541036968147019,0.0015342156284741245
+avg_monthly_spend,,,,,,,,permutation_raw_feature,raw_features_permutation,9.0,0.002351563374581393,0.0022293030523624613
+PaymentMethod,,,,,,,,permutation_raw_feature,raw_features_permutation,10.0,0.002337785355688249,0.001304570769185597
+MonthlyCharges,,,,,,monthlycharges,,permutation_raw_feature,raw_features_permutation,11.0,0.0011253196930947136,0.001994107492819008
+OnlineBackup,,,,,,,,permutation_raw_feature,raw_features_permutation,12.0,0.0009011685482274749,0.0013795146004473805
+StreamingMovies,,,,,,,,permutation_raw_feature,raw_features_permutation,13.0,0.0008543232839909247,0.0010386653048332138
+PaperlessBilling,,,,,,,,permutation_raw_feature,raw_features_permutation,14.0,0.000708879072050513,0.0007316220772996542
+StreamingTV,,,,,,,,permutation_raw_feature,raw_features_permutation,15.0,0.0006196663997176517,0.0010393337244853933
+MultipleLines,,,,,,,,permutation_raw_feature,raw_features_permutation,16.0,0.000541217804645,0.0006988537947033615
+SeniorCitizen,,,,,,,,permutation_raw_feature,raw_features_permutation,17.0,0.0005126284154418107,0.00039451437525722514
+Partner,,,,,,,,permutation_raw_feature,raw_features_permutation,18.0,0.0001811809484444667,0.0002673759212243623
+Dependents,,,,,,,,permutation_raw_feature,raw_features_permutation,19.0,8.79209830617178e-05,0.00028805982359163886
+PhoneService,,,,,,,,permutation_raw_feature,raw_features_permutation,20.0,5.588708913524254e-05,0.00012015021768881933
