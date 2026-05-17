@@ -14,6 +14,7 @@ from sklearn.metrics import f1_score, precision_score, recall_score
 BASE_DIR = Path(__file__).resolve().parent
 BI_DIR = BASE_DIR / "outputs" / "bi"
 THRESHOLD_ANALYSIS_RF = BASE_DIR / "outputs" / "threshold_analysis_random_forest.csv"
+COST_BENEFIT_RF = BASE_DIR / "outputs" / "cost_benefit_random_forest.csv"
 
 
 def tenure_group_series(ser: pd.Series) -> pd.Series:
@@ -53,6 +54,7 @@ def main():
         "churn_by_tenure_group.csv",
         "retention_action_summary.csv",
         "model_kpi_summary.csv",
+        "marketing_kpi_summary.csv",
     ]
     missing = [f for f in required if not (BI_DIR / f).is_file()]
     if missing:
@@ -66,6 +68,7 @@ def main():
     churn_tenure = load_bi_csv("churn_by_tenure_group.csv")
     retention = load_bi_csv("retention_action_summary.csv")
     model_kpi = load_bi_csv("model_kpi_summary.csv")
+    marketing_kpi = load_bi_csv("marketing_kpi_summary.csv")
 
     customers = customers.copy()
     customers["tenure_group"] = tenure_group_series(customers["tenure"])
@@ -94,6 +97,13 @@ def main():
             f"**当前模型**：`{kpi_model.get('model_name', '')}` · "
             f"**业务判定阈值**：`{kpi_model.get('selected_threshold', '')}` · "
             f"**ROC-AUC**：{float(kpi_model.get('roc_auc', 0)):.4f}"
+        )
+    if len(marketing_kpi):
+        mk = marketing_kpi.iloc[0]
+        st.caption(
+            f"营销口径：挽留触达 {int(mk.get('retention_outreach_count', 0)):,} 人 · "
+            f"高风险月费 ${float(mk.get('high_risk_monthly_revenue', 0)):,.0f} · "
+            f"收入加权风险分 {float(mk.get('revenue_weighted_risk_score', 0)):,.0f}"
         )
 
     # ----- 二、Risk Segment -----
@@ -246,8 +256,30 @@ def main():
     show_cols = [c for c in show_cols if c in flt.columns]
     st.dataframe(flt[show_cols].sort_values("churn_probability", ascending=False), use_container_width=True, height=400)
 
-    # ----- 五、Threshold simulation -----
-    st.header("五、阈值模拟")
+    # ----- 五、Cost-benefit -----
+    st.header("五、成本收益模拟")
+    if COST_BENEFIT_RF.is_file():
+        cost_df = pd.read_csv(COST_BENEFIT_RF)
+        min_row = cost_df.loc[cost_df["expected_cost"].idxmin()]
+        c1, c2, c3 = st.columns(3)
+        c1.metric("最低期望成本阈值", f"{float(min_row['threshold']):.2f}")
+        c2.metric("该阈值期望成本", f"${float(min_row['expected_cost']):,.0f}")
+        c3.metric("触达人数 (TP+FP)", f"{int(min_row['outreach_count']):,}")
+        fig_cost = px.line(
+            cost_df,
+            x="threshold",
+            y="expected_cost",
+            title="各阈值下的期望成本（config/cost_config.json）",
+            markers=True,
+        )
+        fig_cost.update_layout(yaxis_title="期望成本 ($)")
+        st.plotly_chart(fig_cost, use_container_width=True)
+        st.caption("假设见 `config/cost_config.json`；与第四节 F1/recall 阈值选择可不同。")
+    else:
+        st.info("运行 `python threshold_analysis.py` 生成 `outputs/cost_benefit_random_forest.csv`。")
+
+    # ----- 六、Threshold simulation -----
+    st.header("六、阈值模拟")
     st.caption(
         "拖动阈值：将「预测为正类（解约）」定义为 P(churn) ≥ 阈值；"
         "precision / recall / f1 依赖明细表中的 **actual_churn**（请使用最新 `bi_export` 导出）。"
@@ -261,14 +293,22 @@ def main():
     st.metric("该阈值下预测为「解约」客户数", f"{pred_pos:,}")
 
     if has_actual:
+        from business_rules import expected_cost, load_cost_config
+
         y_true = customers["actual_churn"].astype(int).values
         prec = float(precision_score(y_true, y_hat, zero_division=0))
         rec = float(recall_score(y_true, y_hat, zero_division=0))
         f1 = float(f1_score(y_true, y_hat, zero_division=0))
-        k1, k2, k3 = st.columns(3)
+        k1, k2, k3, k4 = st.columns(4)
         k1.metric("Precision", f"{prec:.4f}")
         k2.metric("Recall", f"{rec:.4f}")
         k3.metric("F1", f"{f1:.4f}")
+        tp = int(((y_hat == 1) & (y_true == 1)).sum())
+        fp = int(((y_hat == 1) & (y_true == 0)).sum())
+        fn = int(((y_hat == 0) & (y_true == 1)).sum())
+        tn = int(((y_hat == 0) & (y_true == 0)).sum())
+        ec = expected_cost(tp, fp, fn, tn, load_cost_config())
+        k4.metric("期望成本", f"${ec:,.0f}")
     else:
         st.warning("当前 `customer_predictions.csv` 无 `actual_churn` 列，无法现场计算分类指标。")
         ta = load_threshold_analysis_fallback()
@@ -284,6 +324,8 @@ def main():
     st.divider()
     st.subheader("模型 KPI（测试集 · 当前导出配置）")
     st.dataframe(model_kpi, use_container_width=True, hide_index=True)
+    st.subheader("营销 KPI 汇总")
+    st.dataframe(marketing_kpi, use_container_width=True, hide_index=True)
     st.subheader("挽留动作汇总")
     st.dataframe(retention, use_container_width=True, hide_index=True)
 

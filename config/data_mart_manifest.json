@@ -1,0 +1,55 @@
+{
+  "layer": "mart",
+  "source": "bi_export.py",
+  "grain": "customer_and_aggregates",
+  "tables": [
+    {
+      "file": "customer_predictions.csv",
+      "role": "fact",
+      "grain": "customer",
+      "description": "Test-set scores, risk tier, recommended action, key dimensions"
+    },
+    {
+      "file": "risk_segment_summary.csv",
+      "role": "aggregate",
+      "grain": "risk_level",
+      "description": "Population and monthly revenue by High/Medium/Low"
+    },
+    {
+      "file": "churn_by_contract.csv",
+      "role": "aggregate",
+      "grain": "contract",
+      "description": "Actual churn rate and model risk by contract type"
+    },
+    {
+      "file": "churn_by_tenure_group.csv",
+      "role": "aggregate",
+      "grain": "tenure_group",
+      "description": "Churn and predicted risk by tenure bucket"
+    },
+    {
+      "file": "retention_action_summary.csv",
+      "role": "aggregate",
+      "grain": "recommended_action",
+      "description": "Workload sizing by retention action"
+    },
+    {
+      "file": "model_kpi_summary.csv",
+      "role": "kpi",
+      "grain": "model",
+      "description": "Classifier metrics at selected business threshold"
+    },
+    {
+      "file": "marketing_kpi_summary.csv",
+      "role": "kpi",
+      "grain": "portfolio",
+      "description": "Marketing-style portfolio KPIs (churn rate, revenue at risk, outreach load)"
+    },
+    {
+      "file": "data_mart_manifest.json",
+      "role": "catalog",
+      "grain": "n/a",
+      "description": "Table catalog for BI tools and dashboard"
+    }
+  ]
+}

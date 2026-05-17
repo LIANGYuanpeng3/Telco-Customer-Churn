@@ -8,6 +8,7 @@ from fastapi.exceptions import RequestValidationError
 from fastapi.responses import JSONResponse
 from pydantic import BaseModel, Field
 
+from business_rules import assign_risk_level, suggest_action
 from config import load_decision_threshold, load_training_meta
 from preprocess import align_inference_to_fitted_pipeline, prepare_inference_data
 
@@ -66,34 +67,12 @@ def dataframe_for_model(df: pd.DataFrame) -> pd.DataFrame:
     return align_inference_to_fitted_pipeline(df, model)
 
 
-def assign_risk_level(prob: float) -> str:
-    if prob >= 0.70:
-        return "High"
-    if prob >= 0.40:
-        return "Medium"
-    return "Low"
-
-
-def recommended_action(row: pd.Series, prob: float) -> str:
-    risk_level = assign_risk_level(prob)
-
-    if risk_level == "High" and row["tenure"] < 12:
-        return "Offer onboarding support or new-customer retention campaign"
-    if risk_level == "High" and row["MonthlyCharges"] >= 70:
-        return "Provide targeted discount or plan optimization"
-    if risk_level == "High":
-        return "Prioritize retention outreach"
-    if risk_level == "Medium":
-        return "Monitor behavior and send personalized campaign"
-    return "Maintain regular engagement"
-
-
 def prediction_payload(prob: float, row: pd.Series) -> dict:
     return {
         "churn_probability": round(float(prob), 4),
         "predicted_churn": int(prob >= DECISION_THRESHOLD),
         "risk_level": assign_risk_level(prob),
-        "recommended_action": recommended_action(row, prob),
+        "recommended_action": suggest_action(row, prob),
     }
 
 

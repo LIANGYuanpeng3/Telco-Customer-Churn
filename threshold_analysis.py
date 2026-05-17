@@ -19,6 +19,7 @@ from sklearn.metrics import (
     recall_score,
 )
 
+from business_rules import expected_cost, load_cost_config, recommend_threshold_by_cost
 from config import MODEL_DIR, OUTPUT_DIR
 from preprocess import prepare_data
 
@@ -31,10 +32,15 @@ THRESHOLDS = [round(0.1 + i * 0.05, 2) for i in range(17)]  # 0.10 … 0.90 步�
 MODEL_NAMES = ["logistic_regression", "random_forest"]
 
 
-def metrics_for_threshold(y_true, y_prob, threshold: float) -> dict:
+def metrics_for_threshold(
+    y_true, y_prob, threshold: float, cost_cfg: dict[str, float] | None = None
+) -> dict:
     y_pred = (y_prob >= threshold).astype(int)
     cm = confusion_matrix(y_true, y_pred, labels=[0, 1])
     tn, fp, fn, tp = cm.ravel()
+    cfg = cost_cfg or load_cost_config()
+    ec = expected_cost(tp, fp, fn, tn, cfg)
+    outreach_count = int(tp + fp)
 
     return {
         "threshold": threshold,
@@ -46,6 +52,9 @@ def metrics_for_threshold(y_true, y_prob, threshold: float) -> dict:
         "FP": int(fp),
         "TN": int(tn),
         "FN": int(fn),
+        "expected_cost": ec,
+        "outreach_count": outreach_count,
+        "cost_per_outreach": float(cfg["cost_outreach"]),
     }
 
 
@@ -80,15 +89,19 @@ def recommend_threshold(df: pd.DataFrame) -> tuple[float, str]:
     return float(row["threshold"]), "无 recall>=0.75 的阈值，退回为 recall 最大再比 F1"
 
 
-def analyze_model(model_name: str, y_test, X_test_model: pd.DataFrame) -> tuple[pd.DataFrame, float, str]:
+def analyze_model(
+    model_name: str, y_test, X_test_model: pd.DataFrame
+) -> tuple[pd.DataFrame, float, str, float, str]:
     clf = joblib.load(MODEL_DIR / f"{model_name}.joblib")
     y_prob = clf.predict_proba(X_test_model)[:, 1]
+    cost_cfg = load_cost_config()
 
-    rows = [metrics_for_threshold(y_test.values, y_prob, t) for t in THRESHOLDS]
+    rows = [metrics_for_threshold(y_test.values, y_prob, t, cost_cfg) for t in THRESHOLDS]
     out = pd.DataFrame(rows)
 
     rec_t, rec_reason = recommend_threshold(out)
-    return out, rec_t, rec_reason
+    cost_t, cost_reason = recommend_threshold_by_cost(out)
+    return out, rec_t, rec_reason, cost_t, cost_reason
 
 
 def main():
@@ -105,18 +118,25 @@ def main():
         "min_recall_target": MIN_RECALL_TARGET,
         "min_precision_soft": MIN_PRECISION_SOFT,
         "thresholds_scanned": THRESHOLDS,
+        "cost_config_path": "config/cost_config.json",
         "models": {},
     }
 
     for name in MODEL_NAMES:
-        df, thr, reason = analyze_model(name, y_test, X_test_model)
+        df, thr, reason, cost_thr, cost_reason = analyze_model(name, y_test, X_test_model)
         csv_path = OUTPUT_DIR / f"threshold_analysis_{name}.csv"
         df.to_csv(csv_path, index=False)
         print(f"Wrote {csv_path}")
 
+        cost_path = OUTPUT_DIR / f"cost_benefit_{name}.csv"
+        df.to_csv(cost_path, index=False)
+        print(f"Wrote {cost_path}")
+
         summary["models"][name] = {
             "threshold": thr,
             "selection_rationale": reason,
+            "cost_optimal_threshold": cost_thr,
+            "cost_selection_rationale": cost_reason,
         }
 
     cfg_path = MODEL_DIR / "threshold_config.json"

@@ -1,0 +1,7 @@
+{
+  "tiers": [
+    {"name": "High", "min_probability": 0.7},
+    {"name": "Medium", "min_probability": 0.4},
+    {"name": "Low", "min_probability": 0.0}
+  ]
+}

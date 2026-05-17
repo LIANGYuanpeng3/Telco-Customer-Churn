@@ -1,0 +1,8 @@
+{
+  "description": "Illustrative cost assumptions for threshold ROI simulation (USD, per customer).",
+  "cost_false_negative": 500,
+  "cost_false_positive": 15,
+  "cost_outreach": 15,
+  "saved_customer_ltv": 400,
+  "retention_success_rate": 0.35
+}

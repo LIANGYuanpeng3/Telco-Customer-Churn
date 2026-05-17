@@ -1,28 +1,9 @@
 import joblib
 import pandas as pd
 
+from business_rules import assign_risk_level, suggest_action
 from preprocess import prepare_data
 from config import MODEL_DIR, OUTPUT_DIR, load_decision_threshold
-
-
-def assign_risk_level(prob):
-    if prob >= 0.70:
-        return "High"
-    elif prob >= 0.40:
-        return "Medium"
-    return "Low"
-
-
-def suggest_action(row):
-    if row["risk_level"] == "High" and row["tenure"] < 12:
-        return "Offer onboarding support or new-customer retention campaign"
-    if row["risk_level"] == "High" and row["MonthlyCharges"] >= 70:
-        return "Provide targeted discount or plan optimization"
-    if row["risk_level"] == "High":
-        return "Prioritize retention outreach"
-    if row["risk_level"] == "Medium":
-        return "Monitor behavior and send personalized campaign"
-    return "Maintain regular engagement"
 
 
 def main(model_name="random_forest"):
@@ -34,7 +15,6 @@ def main(model_name="random_forest"):
 
     clf = joblib.load(MODEL_DIR / f"{model_name}.joblib")
 
-    # 解约业务常用「概率 + 可调阈值」判定正类，避免固定 0.5 漏检高成本流失客户（见 threshold_analysis / README）
     threshold = load_decision_threshold(model_name)
     prob = clf.predict_proba(X_test)[:, 1]
     pred = (prob >= threshold).astype(int)
@@ -46,7 +26,6 @@ def main(model_name="random_forest"):
         "churn_probability": prob,
     })
 
-    # add selected raw/business columns
     for col in ["tenure", "MonthlyCharges", "Contract", "InternetService", "PaymentMethod"]:
         if col in X_test.columns:
             result_df[col] = X_test[col].values

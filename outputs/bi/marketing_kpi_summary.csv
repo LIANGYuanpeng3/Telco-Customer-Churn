@@ -1,0 +1,2 @@
+model_name,selected_threshold,test_population,actual_churn_rate,avg_churn_probability,predicted_positive_rate,retention_outreach_count,high_risk_customer_count,high_risk_monthly_revenue,flagged_monthly_revenue,revenue_weighted_risk_score
+random_forest,0.45,1409,0.2654364797728886,0.38996331537829976,0.4137686302342087,583,304,23747.05,42672.1,39913.09986513661

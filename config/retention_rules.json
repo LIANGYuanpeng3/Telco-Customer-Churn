@@ -1,0 +1,25 @@
+{
+  "default_action": "Maintain regular engagement",
+  "rules": [
+    {
+      "risk_levels": ["High"],
+      "conditions": {"tenure": {"lt": 12}},
+      "action": "Offer onboarding support or new-customer retention campaign"
+    },
+    {
+      "risk_levels": ["High"],
+      "conditions": {"MonthlyCharges": {"gte": 70}},
+      "action": "Provide targeted discount or plan optimization"
+    },
+    {
+      "risk_levels": ["High"],
+      "conditions": {},
+      "action": "Prioritize retention outreach"
+    },
+    {
+      "risk_levels": ["Medium"],
+      "conditions": {},
+      "action": "Monitor behavior and send personalized campaign"
+    }
+  ]
+}

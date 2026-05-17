@@ -21,14 +21,19 @@
     0.85,
     0.9
   ],
+  "cost_config_path": "config/cost_config.json",
   "models": {
     "logistic_regression": {
       "threshold": 0.45,
-      "selection_rationale": "在 recall>=0.75 且 precision>=0.25 的阈值中取 F1 最高"
+      "selection_rationale": "在 recall>=0.75 且 precision>=0.25 的阈值中取 F1 最高",
+      "cost_optimal_threshold": 0.1,
+      "cost_selection_rationale": "Minimize expected_cost (config/cost_config.json)"
     },
     "random_forest": {
       "threshold": 0.45,
-      "selection_rationale": "在 recall>=0.75 且 precision>=0.25 的阈值中取 F1 最高"
+      "selection_rationale": "在 recall>=0.75 且 precision>=0.25 的阈值中取 F1 最高",
+      "cost_optimal_threshold": 0.1,
+      "cost_selection_rationale": "Minimize expected_cost (config/cost_config.json)"
     }
   }
 }

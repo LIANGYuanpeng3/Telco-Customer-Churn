@@ -14,8 +14,8 @@ from sklearn.metrics import (
     roc_auc_score,
 )
 
+from business_rules import assign_risk_level, publish_data_mart_manifest, suggest_action
 from config import MODEL_DIR, OUTPUT_DIR, load_decision_threshold
-from export_results import assign_risk_level, suggest_action
 from preprocess import prepare_data
 
 OUTPUT_BI = OUTPUT_DIR / "bi"
@@ -168,6 +168,28 @@ def write_model_kpi_summary(
     pd.DataFrame([row]).to_csv(OUTPUT_BI / "model_kpi_summary.csv", index=False)
 
 
+def write_marketing_kpi_summary(df: pd.DataFrame, model_name: str, threshold: float) -> None:
+    mcharges = pd.to_numeric(df["MonthlyCharges"], errors="coerce")
+    high = df["risk_level"] == "High"
+    flagged = df["predicted_churn"] == 1
+    row = {
+        "model_name": model_name,
+        "selected_threshold": threshold,
+        "test_population": int(len(df)),
+        "actual_churn_rate": float(df["actual_churn"].mean()),
+        "avg_churn_probability": float(df["churn_probability"].mean()),
+        "predicted_positive_rate": float(df["predicted_churn"].mean()),
+        "retention_outreach_count": int(flagged.sum()),
+        "high_risk_customer_count": int(high.sum()),
+        "high_risk_monthly_revenue": float(mcharges[high].sum(skipna=True)),
+        "flagged_monthly_revenue": float(mcharges[flagged].sum(skipna=True)),
+        "revenue_weighted_risk_score": float(
+            (mcharges.fillna(0) * df["churn_probability"]).sum(skipna=True)
+        ),
+    }
+    pd.DataFrame([row]).to_csv(OUTPUT_BI / "marketing_kpi_summary.csv", index=False)
+
+
 def main(model_name: str = "random_forest") -> None:
     OUTPUT_BI.mkdir(parents=True, exist_ok=True)
 
@@ -185,6 +207,8 @@ def main(model_name: str = "random_forest") -> None:
         df["churn_probability"].values,
         df["predicted_churn"].values,
     )
+    write_marketing_kpi_summary(df, model_name, threshold)
+    publish_data_mart_manifest(OUTPUT_BI)
 
     print(f"BI CSV files written to {OUTPUT_BI}")
 
