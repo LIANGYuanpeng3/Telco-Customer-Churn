@@ -1,0 +1,4 @@
+Contract,customer_count,actual_churn_rate,average_predicted_churn_probability,high_risk_customer_count
+Month-to-month,773,0.425614489003881,0.6004019876794812,304
+One year,300,0.12,0.19579721642621242,0
+Two year,336,0.026785714285714284,0.0791916963211956,0

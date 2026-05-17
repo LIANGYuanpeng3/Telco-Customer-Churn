@@ -69,7 +69,12 @@ def build_customer_level_df(model_name: str) -> tuple[pd.DataFrame, float]:
     )
 
     for col in CUSTOMER_PREDICTION_COLUMNS:
-        if col in ("customerID", "churn_probability", "predicted_churn"):
+        if col in (
+            "customerID",
+            "churn_probability",
+            "predicted_churn",
+            "actual_churn",
+        ):
             continue
         if col == "risk_level" or col == "recommended_action":
             continue

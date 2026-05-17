@@ -1,6 +1,6 @@
 {
   "model_version": "1.0.0",
-  "trained_at": "2026-05-13T10:25:22.909845+00:00",
+  "trained_at": "2026-05-17T13:56:46.324151+00:00",
   "trained_models": {
     "logistic_regression": "D:\\research\\Telco Customer Churn\\models\\logistic_regression.joblib",
     "random_forest": "D:\\research\\Telco Customer Churn\\models\\random_forest.joblib"
